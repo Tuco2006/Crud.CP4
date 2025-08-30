@@ -1,0 +1,13 @@
+⚽ Cadastro de Jogadoras
+
+Sobre
+Projeto simples desenvolvido em HTML, CSS e JavaScript básico para cadastrar jogadoras de futebol e filtrar por clube.
+
+Funcionalidades
+Adicionar jogadoras Mostrar lista de jogadoras Filtrar por clube
+
+Integrantes
+Tuco Mateus – RM 563266 Danilo – RM 561657
+
+Como usar
+Abrir o arquivo index.html no navegador Preencher os campos e clicar em Adicionar Jogadora Utilizar o filtro para pesquisar por clube
