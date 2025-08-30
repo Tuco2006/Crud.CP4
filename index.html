@@ -16,11 +16,13 @@
             <input type="text" id="nome" placeholder="Nome da jogadora"><br>
             <input type="text" id="posicao" placeholder="Posição (Ex: Atacante, Meio-campo)"><br>
             <input type="text" id="clube" placeholder="Clube atual"><br>
-            <input type="text" id="estatisticas" placeholder="Estatísticas (Ex: 17 gols)"><br>
+            <input type="text" id="estatisticas" placeholder="Estatísticas (Ex: 200 jogos 17 gols)"><br>
             <input type="text" id="foto" placeholder="Link da foto"><br>
             <button type="submit" class="botaoAdicionar">Adicionar Jogadora</button>
+        </form>
+        <form id="jogadoraFiltro" onsubmit="event.preventDefault(); filtrar();">
             <input type="text" id="filtroClube" placeholder="Filtrar por clube">
-            <button onclick=filtrar class="botaoFiltrar"()>Filtrar</button>
+            <button type="submit" class="botaoFiltrar">Filtrar</button>
         </form>
         <h2>Jogadoras</h2>
         <div id="jogadorasList"></div>
