@@ -89,4 +89,27 @@ function salvar() {
     mostrarJogadoras();
 }
 
+function filtrar() {
+    var clube = document.querySelector("#filtroClube").value.toLowerCase();
+    var lista = document.querySelector("#jogadorasList");
+    lista.innerHTML = "";
+
+    for (var i = 0; i < jogadoras.length; i++) {
+        var j = jogadoras[i];
+        if (j.clube.toLowerCase().indexOf(clube) > -1) {
+            var card = document.createElement("div");
+            card.innerHTML = `
+                <h3>${j.nome}</h3>
+                <img src="${j.foto}">
+                <p><b>Posição:</b> ${j.posicao}</p>
+                <p><b>Clube:</b> ${j.clube}</p>
+                <p><b>Estatísticas:</b> ${j.estatisticas}</p>
+                <button onclick="editarJogadora(${i})">Editar</button>
+                <button onclick="removerJogadora(${i})">Excluir</button>
+            `;
+            lista.appendChild(card);
+        }
+    }
+}
+
 mostrarJogadoras();
