@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Jogadoras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Jogadoras de Futebol</h1>
+    </header>
+
+    <div class="container">
+        <form id="jogadoraForm">
+            <input type="text" id="nome" placeholder="Nome da jogadora"><br>
+            <input type="text" id="posicao" placeholder="Posição (Ex: Atacante, Meio-campo)"><br>
+            <input type="text" id="clube" placeholder="Clube atual"><br>
+            <input type="text" id="estatisticas" placeholder="Estatísticas (Ex: 17 gols)"><br>
+            <input type="text" id="foto" placeholder="Link da foto"><br>
+            <button type="submit">Adicionar Jogadora</button>
+        </form>
+        <h2>Jogadoras</h2>
+        <div id="jogadorasList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
