@@ -1,6 +1,6 @@
 let jogadorasIniciais = [
-    { nome: "Marta", posicao: "Atacante", clube: "Orlando Pride", estatisticas: "17 gols", foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdSwK02gD9CFl0m4xU8HKnt6gsj1id4fJpQ&s", favorito: false },
-    { nome: "Formiga", posicao: "Meio-campo", clube: "PSG", estatisticas: "200 jogos", foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdvXmyyOM8l_WLXq3yNaXxuSDb7KL2jQ-0Q&s", favorito: false }
+    { nome: "Marta", posicao: "Atacante", clube: "Orlando Pride", estatisticas: "17 gols", foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSdvXmyyOM8l_WLXq3yNaXxuSDb7KL2jQ-0Q&s", favorito: false },
+    { nome: "Formiga", posicao: "Meio-campo", clube: "PSG", estatisticas: "200 jogos", foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzdSwK02gD9CFl0m4xU8HKnt6gsj1id4fJpQ&s", favorito: false }
 ];
 
 let jogadoras = JSON.parse(localStorage.getItem("jogadoras"));
